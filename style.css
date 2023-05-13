@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Norse';
+    src: url('Norse-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+  }
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+  
+    
+
+}
+body{
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.side{
+    width: 50vw;
+    background-image: url(image-2.jpg.jpg);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.image{
+    width: 100%;
+    
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    height: 10%;
+    
+}
+.image h2{
+    color: aliceblue;
+    font-family: 'Norse';
+    font-weight: bolder;
+    
+}
+.logo{
+    width: 50px;  
+    
+    
+    
+}
+
+
+
