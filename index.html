@@ -6,36 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Norse-Bold.otf">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
     <title>sing-up</title>
 </head>
 <body>
-    <div class="container">
-        <div class="side">
-            <div class="image">
-                <img class="logo" src="odin-lined.png">
-                <h2> Odin </h2>
-            </div>
-        </div>
-        <div class="conetent">
-            <section>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-                    Dolore, asperiores? Animi, porro. Beatae molestiae illum dolorum 
-                    ullam a mollitia accusamus, 
-                    id, ipsam eveniet quasi modi sint vero tempore, atque laborum.
-                </p>
-            </section>
-            <section class="form">
-                <form action="">
-                    <caption>Lets try it</caption>
-                    <label for="first-name">Your First Name</label>
-                    <input id="first-name" type="text">
-                    <label for="last-name">You Last Name
-                        <input id="last-name" type="text">
-                    </label>
-                    
-                </form>
-            </section>
+<div class="container">
+    <div class="hero">
+        <div class="logo">
+            <img src="odin-lined.png" alt="">
+            <h2>the odin</h2>
         </div>
     </div>
+    <main>
+        <div class="content">
+            <p>The next evolution of social connection. Socialize, explore, create, play in ways that go beyond what you can imagine.
+                Welcome to ODINVERSE.</p>
+        </div>
+        <div class="form-container">
+            <form action="#">
+                <fieldset>
+                    <div class="cell">
+                        <label for="f-name">First Name</label>
+                        <input type="text" id="f-name" placeholder="Your First Name">
+                    </div>
+                    <div class="cell">
+                        <label for="l-name">Last Name</label>
+                        <input type="text" id="l-name" placeholder="your Last Name">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="cell">
+                        <label for="email">Email adress</label>
+                        <input type="email" id="email" placeholder="Your Email">
+                    </div>
+                    <div class="cell">
+                        <label for="phone">Phone Number</label>
+                        <input type="text" id="phone" placeholder="000-xxx-111">
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <div class="cell">
+                        <label for="pass">PASSWORD</label>
+                        <input type="text" id="pass" placeholder="Create password">
+                    </div>
+                    <div class="cell">
+                        <label for="co-pass">Confirm password</label>
+                        <input type="text" id="co-pass" placeholder="Confirm Your password ">
+                    </div>
+                </fieldset>
+                <div class="button-area">
+                    <button type="submit">Join The taem</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+        
+    
+</div>
+   
 </body>
 </html>
